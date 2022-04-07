@@ -1,0 +1,11 @@
+.about{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 120%;
+    
+}
