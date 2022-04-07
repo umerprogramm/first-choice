@@ -1,0 +1,78 @@
+.header{
+    background-color: black;
+    height: 230px;
+    flex-direction: row;
+    overflow: hidden;
+  
+}
+
+.nav{
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    padding:1px ;
+    margin-top: 5px;
+
+}
+.header>img{
+ height: 150px;
+ border-radius: 60px;
+padding-top: 45px;
+padding-right:750px ;
+padding-bottom: 15px;
+}
+h2{
+  color: chocolate;
+  float: left;
+  padding-top : 90px; 
+  padding-left: 10px;
+}
+
+ul{
+    display: flex;
+    margin-left:85px ;
+}
+ul>li{
+    list-style: none;
+    justify-content: space-between;
+   color: black;
+}
+
+ul>li>a{
+    display: block;
+    padding : 3px 22px;
+    text-decoration: none;
+    color: black;
+}
+#gmail{
+    padding-left:200px ;
+}
+#nav{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+display: none;
+}
+#nav{
+    display: block;
+}
+body{
+    margin: 0%;
+}
+#nav>a>img{
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-left:15px;
+   }
+ 
+  
+}
+
+@media only screen and (max-width: 350px){
+    #nav>a>img{
+     display: none;
+       }    
+}
